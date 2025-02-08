@@ -1,0 +1,465 @@
+.main {
+    height: 95vh;
+    background-image: url("assets/images/backImg.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.67);
+
+    /* Text also get opacity property so just give background color */
+    /* background-color: black;
+    opacity: 0.67; */
+
+
+    color: white;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black;
+    opacity: 0.67;   */
+
+
+    background-color: rgba(0, 0, 0, 0.67);
+    justify-content: space-around;
+    gap: 43vw;
+
+}
+
+nav img {
+    opacity: 0.87;
+}
+
+
+
+
+nav div {
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+nav span img {
+    margin-top: 20px;
+}
+
+
+
+.hero1 {
+    position: relative;
+    height: 100%;
+    color: white;
+    display: flex;
+    /* font-size: 57px;
+    font-weight: 900; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 15px; */
+}
+
+.hero1> :nth-child(1) {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero1> :nth-child(2) {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero1> :nth-child(3) {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.hero1> :nth-child(4) {
+    font-size: 19px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero1> :nth-child(5) {
+    font-size: 19px;
+    font-weight: 100;
+    text-align: center;
+
+
+
+}
+
+.hero1 div {
+    display: flex;
+    /* font-size: 57px;
+        font-weight: 900; */
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+
+
+
+.hero1 div input {
+    flex: 1;
+
+    font-size: 18px;
+    padding: 12px 12px;
+
+    font-family: Arial, sans-serif;
+    /* Optional: Specify font-family */
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.hero1 div button {
+
+
+    /* padding: 12px; */
+
+    flex: 1;
+    padding: 12px 12px;
+
+    font-size: 20px;
+    background-color: rgb(208, 36, 36);
+    /* height: 50px;
+    width: 180px; */
+    color: white;
+    border-radius: 6px;
+    border: solid black;
+
+}
+
+.curvy-bottom {
+    background-color: rgb(208, 36, 36);
+    /* background-color: rgb(24, 21, 90); */
+
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    clip-path: ellipse(80% 50% at 50% 0%);
+
+
+}
+
+
+
+@media (min-width:1325px) {
+
+
+    .photos {
+            display: flex;
+            background-color: rgb(25, 25, 32);
+            justify-content: center;
+            align-items: center;
+            overflow: auto;
+           
+    
+    
+        }
+}
+
+@media (max-width:1324px) {
+
+
+    .photos {
+            display: flex;
+            flex-direction: column;
+    background-color: rgb(25, 25, 32);
+            justify-content: center;
+            align-items: center;
+            overflow: auto;
+           
+    
+    
+        }
+}
+
+.photos span img {
+    display: block;
+    background-color: rgb(25, 25, 32);
+    border-radius: 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.bottam {
+background-color: rgb(25, 25, 32);
+}
+
+.mid {
+    margin-left: 10vw;
+    margin-right: 50vw;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width:750px) {
+
+
+    .mid2 {
+
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+        animation: cards 4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s direction fill-mode;
+
+
+    }
+
+}
+
+@media (max-width:749px) {
+
+
+    .mid2 {
+
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+        animation: cards 4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s direction fill-mode;
+
+    }
+}
+
+@keyframes cards {
+
+    from {}
+
+    to {}
+
+}
+
+
+
+
+
+.mid button {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 15px;
+    background-color: rgb(5, 5, 50);
+    padding: 14px;
+    border-radius: 10px;
+    width: 320px;
+    height: 181.03px;
+
+}
+
+.card img {
+    position: absolute;
+    /* Position the image absolutely inside the card */
+    bottom: 0;
+    /* Align to the bottom */
+    right: 0;
+    /* Align to the right */
+
+    width: 50px;
+    /* You can adjust the size of the image */
+}
+
+@media (max-width: 768px) {
+    .card img {
+        position: absolute;
+
+        bottom: 0;
+
+        right: 0;
+
+        width: 25px;
+
+    }
+}
+
+.card :nth-child(1) {
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.card :nth-child(2) {
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card :nth-child(3) {
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width:700px) {
+    .card img {
+        /* position: relative; */
+        width: 50px;
+    }
+
+}
+
+.end {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.Faq {
+    background-color: rgb(54, 55, 55);
+    width: 80vw;
+    min-height: 6vh;
+    font-size: 20px;
+    margin: 1px;
+    padding: 25px 12px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    color: white;
+}
+
+.end :nth-child(1) {
+    margin-top: 20px;
+}
+
+.end div input {
+    /* flex: 1; */
+
+
+    font-size: 18px;
+    padding: 16px 12px;
+
+    width: 350px;
+
+    font-family: Arial, sans-serif;
+    /* Optional: Specify font-family */
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.end div button {
+
+
+    /* padding: 12px; */
+
+    flex: 1;
+    padding: 17px 17px;
+
+    font-size: 20px;
+    background-color: rgb(237, 19, 19);
+    /* height: 50px;
+    width: 180px; */
+    color: white;
+    border-radius: 6px;
+    border: solid black;
+
+}
+
+.end span {
+    margin-top: 49px;
+}
+
+button.Faq:hover {
+    background-color: rgb(83, 86, 87);
+}
+
+table {
+    margin-top: 20px;
+    text-decoration: underline;
+
+}
+
+@media (min-width: 768px) {
+    table {
+
+        border-spacing: 12vw 10px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    table {
+
+        border-spacing: 8vw 5px;
+
+    }
+
+}
+
+table button {
+    background-color: rgba(0, 0, 0, 0.27);
+    color: white;
+    text-decoration: underline;
+    border: 2px solid black;
+    font-size: 13px;
+}
+
+.bye {
+    margin-left: 10vw;
+    margin-top: 50px;
+    min-height: 200px;
+}
+
+.bye button {
+    background-color: rgb(25, 25, 32);
+    color: white;
+    padding: 4px 25px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.389);
+}

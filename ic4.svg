@@ -1,0 +1,22 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" 
+      gradientTransform="translate(39.075 17.6882) rotate(135) scale(32.8097)">
+      <stop stop-color="#99421D"/>
+      <stop offset="0.333" stop-color="#99161D"/>
+      <stop offset="0.666" stop-color="#7D1845"/>
+      <stop offset="1" stop-color="#59216E"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" 
+      gradientTransform="translate(62.4 8.70157) rotate(133.87) scale(75.3216)">
+      <stop stop-color="#FFDCCC"/>
+      <stop offset="0.333" stop-color="#A17E58"/>
+      <stop offset="0.666" stop-color="#8E5C2C"/>
+      <stop offset="1" stop-color="#5C4022"/>
+    </radialGradient>
+  </defs>
+  <g id="profiles-core-small">
+    <path d="M10.8 15.6C10.8 12.95 12.95 10.8 15.6 10.8H40.8C43.45 10.8 45.6 12.95 45.6 15.6V40.8C45.6 43.45 43.45 45.6 40.8 45.6H15.6C12.95 45.6 10.8 43.45 10.8 40.8V15.6Z" fill="url(#paint0_radial)"/>
+    <path d="M9.6 14.4C9.6 11.75 11.75 9.6 14.4 9.6H39.6C42.25 9.6 44.4 11.75 44.4 14.4V39.6C44.4 42.25 42.25 44.4 39.6 44.4H14.4C11.75 44.4 9.6 42.25 9.6 39.6V14.4Z" fill="url(#paint1_radial)"/>
+  </g>
+</svg>
